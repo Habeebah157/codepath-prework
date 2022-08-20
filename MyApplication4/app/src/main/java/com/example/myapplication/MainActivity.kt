@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             val msg = txt.text.toString();
             findViewById<TextView>(R.id.textView).text = msg
             if(msg == ""){
-                findViewById<TextView>(R.id.textView).text = "Hello, Write Something :)"
+                findViewById<TextView>(R.id.textView).text = "Hello from Habeebah"
             }
 
 //            val txtView = findViewById<TextView>(R.id.textView).set

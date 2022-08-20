@@ -6,7 +6,7 @@ IOS CODEPATH PREWORK
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://recordit.co/q8tdwSfT6p" width=200><br>
 
 `TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
@@ -22,5 +22,5 @@ IOS CODEPATH PREWORK
 - [x] 4. User can update the label text with custom text entered into the text field.
    - [x] a. User can enter text into a text field using the keyboard.
    - [x] b. User can tap the "Change text string" button to update the label with the text from the text field.
-   - [ ] c. If the text field is empty, update label with default text string.
-   - [ ] d. The keyboard is dismissed after the button has been tapped.
+   - [x] c. If the text field is empty, update label with default text string.
+   
