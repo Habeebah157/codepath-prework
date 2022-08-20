@@ -28,11 +28,20 @@ class MainActivity : AppCompatActivity() {
             val txt = findViewById<EditText>(R.id.TextPersonName);
             val msg = txt.text.toString();
             findViewById<TextView>(R.id.textView).text = msg
+            if(msg == ""){
+                findViewById<TextView>(R.id.textView).text = "Hello, Write Something :)"
+            }
 
 //            val txtView = findViewById<TextView>(R.id.textView).set
         }
         findViewById<Button>(R.id.viewcolor).setOnClickListener{
             findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.backgroundcolor).setBackgroundColor(getResources().getColor(R.color.cutegreen))
+
+        }
+        findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.backgroundcolor).setOnClickListener{
+            findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.backgroundcolor).setBackgroundColor(getResources().getColor(R.color.purple_200))
+            findViewById<TextView>(R.id.textView).text = "Hello from Habeebah"
+            findViewById<TextView>(R.id.textView).setTextColor(getResources().getColor(R.color.white))
 
         }
 
