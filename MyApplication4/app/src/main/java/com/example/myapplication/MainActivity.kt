@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.backgroundcolor).setOnClickListener{
             findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.backgroundcolor).setBackgroundColor(getResources().getColor(R.color.purple_200))
             findViewById<TextView>(R.id.textView).text = "Hello from Habeebah"
-            findViewById<TextView>(R.id.textView).setTextColor(getResources().getColor(R.color.white))
+            findViewById<TextView>(R.id.textView).setTextColor(getResources().getColor(R.color.black))
 
         }
 
