@@ -1,7 +1,7 @@
 IOS CODEPATH PREWORK
 
 ### App Description
-Code path project demonstrating the builing of basic ios application using Kotlin
+Code path pre-work project demonstrating the builing of basic ios application using Kotlin
 
 ### App Walk-though
 <img src="http://g.recordit.co/q8tdwSfT6p.gif" width=200><br>
